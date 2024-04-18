@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="7dp"
+        app:cardUseCompatPadding="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:id="@+id/rowId"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="11dp"
+                android:orientation="vertical"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/projectName"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Sample Project"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/projectStatus"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:text="In Progress"
+                        android:textColor="@color/white"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:padding="2dp"
+                        android:layout_marginTop="5dp"
+                        />
+                </LinearLayout>
+                    <TextView
+                        android:id="@+id/projectStartDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Started on 14th March 2024"
+                        android:textSize="16sp"
+                        />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    >
+                    <ImageView
+                        android:id="@+id/userIcon"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:contentDescription="Contact Image"
+                        android:src="@drawable/profile_logo"
+                        />
+                    <TextView
+                        android:id="@+id/projectManager"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Created by Project Manager at 08:30 pm"
+                        android:textSize="16sp"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginStart="10dp"/>
+
+                    <ImageView
+                        android:id="@+id/rightArrowIcon"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="end"
+                        android:contentDescription="Contact Image"
+                        android:src="@drawable/baseline_arrow_forward_ios_24" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

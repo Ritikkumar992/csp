@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Other styles -->
+
+    <!-- Define MyMenuItemStyle -->
+    <style name="MyMenuItemStyle" parent="@android:style/Widget.TextView">
+        <item name="android:background">#000000</item> <!-- Black background color -->
+        <item name="android:textColor">#FFFFFF</item> <!-- White text color -->
+    </style>
+</resources>

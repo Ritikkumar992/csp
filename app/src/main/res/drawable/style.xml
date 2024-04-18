@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style android:name="NavigationMenuItem"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:name="android:textSize">18sp</item>
+    <item android:name="android:textColor">@color/white</item>
+    <!-- Add more styling attributes as needed -->
+</style>

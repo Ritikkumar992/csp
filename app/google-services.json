@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "315563693849",
+    "project_id": "customersupportdb-ritik",
+    "storage_bucket": "customersupportdb-ritik.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315563693849:android:1ee57e277b529fbb9c5788",
+        "android_client_info": {
+          "package_name": "com.example.customer_support_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbm8IVPn42GBJzLMsfHbTeLbx2vQeihZ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

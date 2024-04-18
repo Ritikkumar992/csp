@@ -1,0 +1,63 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Project Manager"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <Spinner
+        android:id="@+id/spinnerId_project_manager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:padding="20dp"
+        android:background="@drawable/edit_text_border"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <TextView
+            android:id="@+id/backBtn"
+            android:layout_width="130dp"
+            android:layout_height="60dp"
+            android:text="back"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:background = "@drawable/button_background"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/submitBtn"
+            android:layout_width="130dp"
+            android:layout_height="60dp"
+            android:text="Submit"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:background = "@drawable/button_background"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
